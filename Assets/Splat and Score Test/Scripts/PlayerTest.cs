@@ -17,17 +17,6 @@ public class PlayerTest : MonoBehaviour
     [SerializeField]
     private Material[] colourMaterials;
 
-    private PlayerInput playerinputTest;
-
-    private void OnEnable()
-    {
-        playerinputTest.Enable();
-    }
-    private void OnDisable()
-    {
-        playerinputTest.Disable();
-    }
-
 
     private void Start()
     {
