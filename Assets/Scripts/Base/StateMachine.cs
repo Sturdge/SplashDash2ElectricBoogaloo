@@ -31,6 +31,13 @@ namespace StateMachine
             CurrentState.EnterState(parent);
         }
 
+        /// <summary>
+        /// Method for running the logic of the current state
+        /// </summary>
+        public void Update()
+        {
+            CurrentState?.UpdateState(parent);
+        }
     }
 
     /// <summary>
