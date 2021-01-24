@@ -2137,6 +2137,7 @@ GameObject:
   - component: {fileID: 1697467068}
   - component: {fileID: 1697467067}
   - component: {fileID: 1697467066}
+  - component: {fileID: 1697467070}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2220,6 +2221,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1697467070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697467065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbc8d3aa6fdc3040892a6e7ec346c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splatScale: 1
+  playerTransform: {fileID: 1697467069}
+  playerMeshRend: {fileID: 1697467067}
+  colourMaterials:
+  - {fileID: 2100000, guid: 6e63e7d3b402c4547b86c6c5ba8dbc83, type: 2}
+  - {fileID: 2100000, guid: de0ef5fd145b03b43ac2c32217b09476, type: 2}
+  - {fileID: 2100000, guid: f53099737a22ba84eb9ac4c1460ec3a5, type: 2}
+  - {fileID: 2100000, guid: 3742fc835a6bec54e8e02a890d90da26, type: 2}
 --- !u!1 &1881655913
 GameObject:
   m_ObjectHideFlags: 0
