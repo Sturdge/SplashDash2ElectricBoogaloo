@@ -589,7 +589,12 @@ PlayerSettings:
   scriptingRuntimeVersion: 1
   gcIncremental: 1
   gcWBarrierValidation: 0
+<<<<<<< HEAD
   apiCompatibilityLevelPerPlatform: {}
+=======
+  apiCompatibilityLevelPerPlatform:
+    Standalone: 3
+>>>>>>> parent of 9fb1fa3... Revert "Initial player setup"
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template3D

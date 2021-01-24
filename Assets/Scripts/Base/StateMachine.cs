@@ -31,6 +31,17 @@ namespace StateMachine
             CurrentState.EnterState(parent);
         }
 
+<<<<<<< HEAD
+=======
+        /// <summary>
+        /// Method for running the logic of the current state
+        /// </summary>
+        public void Update()
+        {
+            CurrentState?.UpdateState(parent);
+        }
+
+>>>>>>> parent of 9fb1fa3... Revert "Initial player setup"
     }
 
     /// <summary>
